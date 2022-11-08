@@ -1,0 +1,1664 @@
+┌ Info: Logging output? true
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:196
+┌ Info: Using GPUs? true
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:197
+┌ Warning: Support for GPU memory limits (JULIA_CUDA_MEMORY_LIMIT) has been removed.
+└ @ CUDA /home/javier/.julia/packages/CUDA/sCev8/src/initialization.jl:75
+┌ Info: 3172
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3173
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3174
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3175
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3176
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3177
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3178
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3179
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3180
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3181
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3182
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3183
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3184
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3185
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3186
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3187
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3188
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3189
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3190
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3191
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3192
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3193
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3194
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3195
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3196
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3197
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3198
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3199
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3200
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3201
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3202
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3203
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3204
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3205
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3206
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3207
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3208
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3209
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3210
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3211
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3212
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3213
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3214
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3215
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3216
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3217
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3218
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3219
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3220
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3221
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3222
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3223
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3224
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3225
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3226
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3227
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3228
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3229
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3230
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3231
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3232
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3233
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3234
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3235
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3236
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3237
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3238
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3239
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3240
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3241
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3242
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3243
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3244
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3245
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3246
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3247
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3248
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3249
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3250
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3251
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3252
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3253
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3254
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3255
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3256
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3257
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3258
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3259
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3260
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3261
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3262
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3263
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3264
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3265
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3266
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3267
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3268
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3269
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3270
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3271
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3272
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3273
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3274
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3275
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3276
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3277
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3278
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3279
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3280
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3281
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3282
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3283
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3284
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3285
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3286
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3287
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3288
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3289
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3290
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3291
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3292
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3293
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3294
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3295
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3296
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3297
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3298
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3299
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3300
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3301
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3302
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3303
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3304
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3305
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3306
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3307
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3308
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3309
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3310
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3311
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3312
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3313
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3314
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3315
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3316
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3317
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3318
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3319
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3320
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3321
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3322
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3323
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3324
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3325
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3326
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3327
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3328
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3329
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3330
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3331
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3332
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3333
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3334
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3335
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3336
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3337
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3338
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3339
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3340
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3341
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3342
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3343
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3344
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3345
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3346
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3347
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3348
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3349
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3350
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3351
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3352
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3353
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3354
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3355
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3356
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3357
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3358
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3359
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3360
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3361
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3362
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3363
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3364
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3365
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3366
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3367
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3368
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3369
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3370
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3371
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3372
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3373
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3374
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3375
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3376
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3377
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3378
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3379
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3380
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3381
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3382
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3383
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3384
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3385
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3386
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3387
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3388
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3389
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3390
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3391
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3392
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3393
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3394
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3395
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3396
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3397
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3398
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3399
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3400
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3401
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3402
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3403
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3404
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3405
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3406
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3407
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3408
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3409
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3410
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3411
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3412
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3413
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3414
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3415
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3416
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3417
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3418
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3419
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3420
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3421
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3422
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3423
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3424
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3425
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3426
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3427
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3428
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3429
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3430
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3431
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3432
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3433
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3434
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3435
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3436
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3437
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3438
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3439
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3440
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3441
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3442
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3443
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3444
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3445
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3446
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3447
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3448
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3449
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3450
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3451
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3452
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3453
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3454
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3455
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3456
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3457
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3458
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3459
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3460
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3461
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3462
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3463
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3464
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3465
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3466
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3467
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3468
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3469
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3470
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3471
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3472
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3473
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3474
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3475
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3476
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3477
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3478
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3479
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3480
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3481
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3482
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3483
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3484
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3485
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3486
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3487
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3488
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3489
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3490
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3491
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3492
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3493
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3494
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3495
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3496
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3497
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3498
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3499
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3500
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3501
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3502
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3503
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3504
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3505
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3506
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3507
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3508
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3509
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3510
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3511
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3512
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3513
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3514
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3515
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3516
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3517
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3518
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3519
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3520
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3521
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3522
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3523
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3524
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3525
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3526
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3527
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3528
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3529
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3530
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3531
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3532
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3533
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3534
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3535
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3536
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3537
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3538
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3539
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3540
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3541
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3542
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3543
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3544
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3545
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3546
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3547
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3548
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3549
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3550
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3551
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3552
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3553
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3554
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3555
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3556
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3557
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3558
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3559
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3560
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3561
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3562
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3563
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3564
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3565
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3566
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3567
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3568
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3569
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3570
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3571
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3572
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3573
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3574
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3575
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3576
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3577
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3578
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3579
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3580
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3581
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3582
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3583
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3584
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3585
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3586
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3587
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3588
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3589
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3590
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3591
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3592
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3593
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3594
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3595
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3596
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3597
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3598
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3599
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3600
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3601
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3602
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3603
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3604
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3605
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3606
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3607
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3608
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3609
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3610
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3611
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3612
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3613
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3614
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3615
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3616
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3617
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3618
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3619
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3620
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3621
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3622
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3623
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3624
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3625
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3626
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3627
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3628
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3629
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3630
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3631
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3632
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3633
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3634
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3635
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3636
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3637
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3638
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3639
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3640
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3641
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3642
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3643
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3644
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3645
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3646
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3647
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3648
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3649
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3650
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3651
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3652
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3653
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3654
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3655
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3656
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3657
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3658
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3659
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3660
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3661
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3662
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3663
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3664
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3665
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3666
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3667
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3668
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3669
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3670
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3671
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3672
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3673
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3674
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3675
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3676
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3677
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3678
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3679
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3680
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3681
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3682
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3683
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3684
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3685
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3686
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3687
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3688
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3689
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3690
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3691
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3692
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3693
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3694
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3695
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3696
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3697
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3698
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3699
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3700
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3701
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3702
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3703
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3704
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3705
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3706
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3707
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3708
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3709
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3710
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3711
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3712
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3713
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3714
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3715
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3716
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3717
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3718
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3719
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3720
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3721
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3722
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3723
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3724
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3725
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3726
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3727
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3728
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3729
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3730
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3731
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3732
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3733
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3734
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3735
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3736
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3737
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3738
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3739
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3740
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3741
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3742
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3743
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3744
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3745
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3746
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3747
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3748
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3749
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3750
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3751
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3752
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3753
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3754
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3755
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3756
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3757
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3758
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3759
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3760
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3761
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3762
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3763
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3764
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3765
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3766
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3767
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3768
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3769
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3770
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3771
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3772
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3773
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3774
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3775
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3776
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3777
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3778
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3779
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3780
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3781
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3782
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3783
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3784
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3785
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3786
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3787
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3788
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3789
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3790
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3791
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3792
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3793
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3794
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3795
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3796
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3797
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3798
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3799
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3800
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3801
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3802
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3803
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3804
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3805
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3806
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3807
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3808
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3809
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3810
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3811
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3812
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3813
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3814
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3815
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3816
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3817
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3818
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3819
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3820
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3821
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3822
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3823
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3824
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3825
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3826
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3827
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3828
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3829
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3830
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3831
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3832
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3833
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3834
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3835
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3836
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3837
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3838
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3839
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3840
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3841
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3842
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3843
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3844
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3845
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3846
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3847
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3848
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3849
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3850
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3851
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3852
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3853
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3854
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3855
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3856
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3857
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3858
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3859
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3860
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3861
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3862
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3863
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3864
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3865
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3866
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3867
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3868
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3869
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3870
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3871
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3872
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3873
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3874
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3875
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3876
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3877
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3878
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3879
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3880
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3881
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3882
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3883
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3884
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3885
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3886
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3887
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3888
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3889
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3890
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3891
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3892
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3893
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3894
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3895
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3896
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3897
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3898
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3899
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3900
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3901
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3902
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3903
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3904
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3905
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3906
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3907
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3908
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3909
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3910
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3911
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3912
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3913
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3914
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3915
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3916
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3917
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3918
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3919
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3920
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3921
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3922
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3923
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3924
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3925
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3926
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3927
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3928
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3929
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3930
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3931
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3932
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3933
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3934
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3935
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3936
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3937
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3938
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3939
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3940
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3941
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3942
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3943
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3944
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3945
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3946
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3947
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3948
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3949
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3950
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3951
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3952
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3953
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3954
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3955
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3956
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3957
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3958
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3959
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3960
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3961
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3962
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3963
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3964
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3965
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3966
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3967
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3968
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3969
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3970
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3971
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3972
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3973
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3974
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3975
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3976
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3977
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3978
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3979
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3980
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3981
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3982
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3983
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3984
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3985
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3986
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3987
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3988
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3989
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3990
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3991
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3992
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3993
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3994
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3995
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3996
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3997
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3998
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 3999
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154
+┌ Info: 4000
+└ @ Main /home/javier/Projects/DiffSolver/runSim.jl:154

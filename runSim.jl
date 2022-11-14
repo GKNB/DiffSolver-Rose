@@ -3,7 +3,7 @@ ENV["JULIA_CUDA_MEMORY_LIMIT"] = 10^10 # cap the amount of allocated GPU memory,
 
 using CUDA, OrdinaryDiffEq, DiffEqFlux, LinearAlgebra, DiffEqSensitivity#, Flux
 using Images, Plots, ArgParse
-using DifferentialEquations, DelimitedFiles, Logging
+using DifferentialEquations, DelimitedFiles, Logging, Dates
 # using Parameters: @with_kw
 # julia runSim.jl -s 19 -d 19SourcesRdm
 # CUDA.usage_limit[] = 10^10  # For a 12GB K80 card
@@ -86,7 +86,7 @@ function f(u,p,t)
   gAMx = A * gMx
   gDA =  @. Dd*(gMyA + gAMx)
   # dA = @. gDA + α1*BPatch - r1*A*BPatch
-  dA = @. gDA - r1*A + α₁
+  dA = @. gDA - r1*A + r1 * α₁
   return dA
 end
 
@@ -97,7 +97,7 @@ function fCPU(u,p,t)
   gAMx = A * gMx
   gDA =  @. Dd*(gMyA + gAMx)
   # dA = @. gDA + α1*BPatch - r1*A*BPatch
-  dA = @. gDA - r1*A + α₁
+  dA = @. gDA - r1*A + r1 * α₁
   return Array(dA)
 end
 
@@ -151,7 +151,7 @@ end
 
 function runFunction(start, stop, dir; ns=1, gridSize=100, radius = 5)
   for i in start:stop
-    @info i
+    @info now() i
     in_cond, dist = genInitialCond(gridSize, r, use_gpu; ns=ns)
     init_cond, final_state = genTuples(i, in_cond, dist, use_gpu; dir=dir)
     # f1 = heatmap(init_cond)
@@ -208,8 +208,8 @@ if abspath(PROGRAM_FILE) == @__FILE__
         global_logger(logger)
     end
 
-    @info "Logging output? $(log)"
-    @info "Using GPUs? $(use_gpu)"
+    @info "$(now()) Logging output? $(log)"
+    @info "$(now()) Using GPUs? $(use_gpu)"
 
     α₁, _ = genInitialCond(gridSize, r, use_gpu)
     gMx, gMy = gen_op(size(α₁,1), use_gpu)        # This generates the discrete laplacian as in CR's tutorial

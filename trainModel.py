@@ -592,7 +592,7 @@ if __name__ == '__main__':
                         help="Specify hparam delta")
     parser.add_argument('--toggle', dest="toggle", type=int, default=1,
                         help="Specify hparam toggle")
-    parser.add_argument('--p', dest="p", type=int, default=1,
+    parser.add_argument('--p', dest="p", type=float, default=1,
                         help="Specify hparam p")
     parser.add_argument('--disc', dest="disc", type=bool, default=False,
                         help="Using discriminator?")
@@ -625,6 +625,12 @@ if __name__ == '__main__':
         os.listdir(os.path.join(PATH, "Dict", dir))[0]
         dict = inOut().loadDict(os.path.join(PATH, "Dict", dir, os.listdir(os.path.join(PATH, "Dict", dir))[0]))
     dict["lr"]=lr
+    
+    
+    if "dataset" in dict:
+        dict["dataset"].append(DATASETNAME)
+    else:
+        dict["dataset"] = [DATASETNAME]
 
 
     if args.disc == False:

@@ -69,10 +69,10 @@ class MyData(Dataset):
             file = self.path + "/" + self.df.Cell[index]
             file2 = self.path + "/" + self.df.Field[index]
         else:
-            file = self.path.split("/DiffSolver/")[0] + "/DiffSolver/" + self.df.Prefix[index] + "/" + \
-                   self.path.split("/DiffSolver/")[1] + "/" + self.df.Cell[index]
-            file2 = self.path.split("/DiffSolver/")[0] + "/DiffSolver/" + self.df.Prefix[index] + "/" + \
-                    self.path.split("/DiffSolver/")[1] + "/" + self.df.Field[index]
+            file = self.path.split("/Results/")[0] + "/Results/" + self.df.Prefix[index] + "/" + \
+                   self.path.split("/Results/")[1] + "/" + self.df.Cell[index]
+            file2 = self.path.split("/Results/")[0] + "/Results/" + self.df.Prefix[index] + "/" + \
+                    self.path.split("/Results/")[1] + "/" + self.df.Field[index]
         image = self.load_image(file, add_noise=False)
         label = self.load_image(file2, add_noise=False)
         return image, label

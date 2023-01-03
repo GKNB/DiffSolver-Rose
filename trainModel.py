@@ -550,12 +550,12 @@ class train(object):
             #save model
             
 
-# /home/javier/Projects/DiffSolver/Results
+# /home/javier/Projects/DiffSolver/Results/
 # /raid/javier/Datasets/DiffSolver/
-# '/home/' + getpass.getuser() +'/Projects/DiffSolver/Results'
+# '/home/' + getpass.getuser() +'/Projects/DiffSolver/Results/'
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Train Deep Diffusion Solver")
-    parser.add_argument('--path', dest="path", type=str, default='/home/' + getpass.getuser() +'/Projects/DiffSolver/Results',
+    parser.add_argument('--path', dest="path", type=str, default='/home/' + getpass.getuser() +'/Projects/DiffSolver/Results/',
                         help="Specify path to dataset")
     parser.add_argument('--dataset', dest="dataset", type=str, default="All",
                         help="Specify dataset")

@@ -17,9 +17,11 @@ import PIL
 import logging
 import sys
 import argparse
+import getpass
 
 
-sys.path.insert(1, '/home/javier/Projects/DiffSolver/DeepDiffusionSolver/util')
+sys.path.insert(1, '/home/' + getpass.getuser() +'/Projects/DiffSolver/DeepDiffusionSolver/util')
+# sys.path.insert(1, '/home/javier/Projects/DiffSolver/DeepDiffusionSolver/util')
 
 from loaders import generateDatasets, inOut, saveJSON, loadJSON#, MyData
 from NNets import SimpleCNN
@@ -86,10 +88,11 @@ class myLoss(object):
             loss = inverse_huber_loss(target,output, C = delta)
         return loss
 
-
+# /raid/javier/Datasets/DiffSolver/
+# '/home/' + getpass.getuser() +'/Projects/DiffSolver/Results'
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Train Deep Diffusion Solver")
-    parser.add_argument('--path', dest="path", type=str, default="/raid/javier/Datasets/DiffSolver/",
+    parser.add_argument('--path', dest="path", type=str, default='/home/' + getpass.getuser() +'/Projects/DiffSolver/Results',
                         help="Specify path to dataset")
     parser.add_argument('--dataset', dest="dataset", type=str, default="All",
                         help="Specify dataset")

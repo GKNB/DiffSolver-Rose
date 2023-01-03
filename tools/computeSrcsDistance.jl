@@ -37,7 +37,13 @@ function computeDistancesHistogram(DS, testCSV; n=10, radius=5)
     for i in 1:n
         a = reshape(readdlm(PATH * DS * "/test/" * testCSV[i,1]),512,512);
         dis = computeDistancesInSample(a)
-        disTotal = vcat(disTotal, dis[dis .> 2*radius])
+#         disTotal = vcat(disTotal, dis[dis .> 2*radius])
+        try
+            disTotal = vcat(disTotal, [size(dis[i][dis[i] .> radius],1) > 0 ? sort(dis[i][dis[i] .> radius])[1] : 0.0 for i in 1:size(dis,1)])
+        catch
+            @warn "In $DS with $i"
+            @error sort(dis[i][dis[i] .> radius])
+        end
     end
     disTotal
 end
@@ -45,7 +51,8 @@ end
 function computeDistancesInSample(a)
     arr = cropSource(sign.(Array(a)))
     pos = findall(x-> x==1, arr);
-    dis = [sqrt((pos[i][1]-pos[j][1])^2 + (pos[i][2]-pos[j][2])^2) for i in 1:size(pos,1) for j in i+1:size(pos,1)] 
+#     dis = [sqrt((pos[i][1]-pos[j][1])^2 + (pos[i][2]-pos[j][2])^2) for i in 1:size(pos,1) for j in i+1:size(pos,1)] 
+    dis = [[sqrt((pos[i][1]-pos[j][1])^2 + (pos[i][2]-pos[j][2])^2) for i in 1:size(pos,1)] for j in 1:size(pos,1)]
     dis
 end
 

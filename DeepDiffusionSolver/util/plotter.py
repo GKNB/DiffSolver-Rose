@@ -44,8 +44,8 @@ class myPlots():
         # plt.imshow(vutils.make_grid((theModel(r[0].to(device))[1:2])/1.85 - r[1].to(device)[1:2], padding=2, normalize=False, range=(-1,1),  nrow=5).detach().cpu().numpy()[1,:,:],cmap='cividis', interpolation='nearest')
         # plt.colorbar()
         fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8.5, 8.5))
-        axs[0, 0].plot(error_list, 'b*-', lw=3, ms=12)
-        axs[0, 0].plot(error_list_test, 'r*-', lw=3, ms=12)
+        axs[0, 0].plot(error_list, 'b.-', lw=1, ms=12)
+        axs[0, 0].plot(error_list_test, 'r.-', lw=1, ms=12)
         axs[0, 0].set(ylabel='Loss', title='Epoch {}'.format(epoch + 1))
 
         im = axs[0, 1].imshow(vutils.make_grid(

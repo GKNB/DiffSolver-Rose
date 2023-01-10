@@ -150,6 +150,9 @@ if __name__ == '__main__':
     device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else "cpu")
     diffSolv = DiffSur().to(device)
     os.listdir(PATH + "Dict/")
+    
+    if not os.path.isdir(os.path.join(PATH, "AfterPlots", "errors")):
+        os.makedirs(os.path.join(PATH, "AfterPlots", "errors"))
 
     
     ##MSE Test

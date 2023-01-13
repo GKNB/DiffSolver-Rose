@@ -25,7 +25,7 @@ sys.path.insert(1, '/home/' + getpass.getuser() +'/Projects/DiffSolver/DeepDiffu
 
 from loaders import generateDatasets, inOut, saveJSON, loadJSON#, MyData
 from NNets import SimpleCNN
-from tools import accuracy, tools, per_image_error, predVsTarget, errInDS
+from tools import accuracy, tools, per_image_error, predVsTarget, errInDS, errInDSTailored
 from plotter import myPlots, plotSamp, plotSampRelative
 
 from trainModel import DiffSur
@@ -214,6 +214,12 @@ if __name__ == '__main__':
             selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
             selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
             selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])
+            
+            selectedDirs[selectedDir]["mean"]["ring4"].append(arr[30])
+            selectedDirs[selectedDir]["max"]["ring4"].append(arr[31])
+            selectedDirs[selectedDir]["maxmean"]["ring4"].append(arr[32])
+            selectedDirs[selectedDir]["min"]["ring4"].append(arr[33])
+            selectedDirs[selectedDir]["minmean"]["ring4"].append(arr[34])
         myLog.logging.info(f'Finished tests over datasets')
 
     modelName = next(iter(selectedDirs.keys()))
@@ -221,68 +227,74 @@ if __name__ == '__main__':
     myLog.logging.info(f'JSON object saved')
     
     
-    ##InvH Test
-#     losstest = myLoss(dict,lossSelection=args.loss).forward
-#     selectedDirs = {dir : {"mean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "max" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "maxmean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "min" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "minmean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}}}
+    ##Tailored
+    selectedDirs = {dir : {"mean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "max" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "maxmean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "min" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}, "minmean" : {"all" : [], "src" : [], "field" : [], "ring1" : [], "ring2" : [], "ring3" : []}}}
 
-#     datasetNameList = [f'{i}SourcesRdm' for i in range(1,21)]
-#     error, errorField, errorSrc = [], [], []
+    datasetNameList = [f'{i}SourcesRdm' for i in range(1,21)]
+    error, errorField, errorSrc = [], [], []
 
-#     for selectedDir in selectedDirs.keys():
-#         dir = selectedDir
-#         os.listdir(os.path.join(PATH, "Dict", dir))[0]
-#         dict = inOut().loadDict(os.path.join(PATH, "Dict", dir, os.listdir(os.path.join(PATH, "Dict", dir))[0]))
-# #        print(dict, '\n')
+    for selectedDir in selectedDirs.keys():
+        dir = selectedDir
+        os.listdir(os.path.join(PATH, "Dict", dir))[0]
+        dict = inOut().loadDict(os.path.join(PATH, "Dict", dir, os.listdir(os.path.join(PATH, "Dict", dir))[0]))
+#        print(dict, '\n')
         
-#         myLog.logging.info(f'Generating tests using {args.loss}... for model {selectedDir}')
-#         try:
-#             ep,err, theModel = inOut().load_model(diffSolv, "Diff", dict, tag='Best')
-#             myLog.logging.info(f'Using Best model!')
-#         except:
-#             ep,err, theModel = inOut().load_model(diffSolv, "Diff", dict)
-#         theModel.eval();
+        myLog.logging.info(f'Generating tests using {dict["lossSelection"]}... for model {selectedDir}')
+        try:
+            ep,err, theModel = inOut().load_model(diffSolv, "Diff", dict, tag='Best')
+            myLog.logging.info(f'Using Best model!')
+        except:
+            ep,err, theModel = inOut().load_model(diffSolv, "Diff", dict)
+        theModel.eval();
         
-#         for (j, ds) in enumerate(datasetNameList):
-#             myLog.logging.info(f'Dataset: {ds}')
-#             trainloader, testloader = generateDatasets(PATH, datasetName=ds, batch_size=BATCH_SIZE, num_workers=NUM_WORKERS, std_tr=0.1, s=512, transformation=dict["transformation"]).getDataLoaders()
-#     #     selectedDirs[selectedDir] = t.errorPerDataset(PATH, theModel, device, BATCH_SIZE=BATCH_SIZE, NUM_WORKERS=NUM_WORKERS, std_tr=0.0, s=512)
-#             arr = errInDS(theModel, testloader, device, transformation=dict["transformation"], error_fnc=nn.MSELoss(reduction='none'))
-#             selectedDirs[selectedDir]["mean"]["all"].append(arr[0])
-#             selectedDirs[selectedDir]["mean"]["field"].append(arr[1])
-#             selectedDirs[selectedDir]["mean"]["src"].append(arr[2])
-#             selectedDirs[selectedDir]["max"]["all"].append(arr[3])
-#             selectedDirs[selectedDir]["max"]["field"].append(arr[4])
-#             selectedDirs[selectedDir]["max"]["src"].append(arr[5])
-#             selectedDirs[selectedDir]["maxmean"]["all"].append(arr[6])
-#             selectedDirs[selectedDir]["maxmean"]["field"].append(arr[7])
-#             selectedDirs[selectedDir]["maxmean"]["src"].append(arr[8])
-#             selectedDirs[selectedDir]["min"]["all"].append(arr[9])
-#             selectedDirs[selectedDir]["min"]["field"].append(arr[10])
-#             selectedDirs[selectedDir]["min"]["src"].append(arr[11])
-#             selectedDirs[selectedDir]["minmean"]["all"].append(arr[12])
-#             selectedDirs[selectedDir]["minmean"]["field"].append(arr[13])
-#             selectedDirs[selectedDir]["minmean"]["src"].append(arr[14])
+        for (j, ds) in enumerate(datasetNameList):
+            myLog.logging.info(f'Dataset: {ds}')
+            trainloader, testloader = generateDatasets(PATH, datasetName=ds, batch_size=BATCH_SIZE, num_workers=NUM_WORKERS, std_tr=0.1, s=512, transformation=dict["transformation"]).getDataLoaders()
+    #     selectedDirs[selectedDir] = t.errorPerDataset(PATH, theModel, device, BATCH_SIZE=BATCH_SIZE, NUM_WORKERS=NUM_WORKERS, std_tr=0.0, s=512)
+            error_fncTailored=myLoss(dict)
+            arr = errInDSTailored(theModel, testloader, device, transformation=dict["transformation"], error_fnc=error_fncTailored)
+            selectedDirs[selectedDir]["mean"]["all"].append(arr[0])
+            selectedDirs[selectedDir]["mean"]["field"].append(arr[1])
+            selectedDirs[selectedDir]["mean"]["src"].append(arr[2])
+            selectedDirs[selectedDir]["max"]["all"].append(arr[3])
+            selectedDirs[selectedDir]["max"]["field"].append(arr[4])
+            selectedDirs[selectedDir]["max"]["src"].append(arr[5])
+            selectedDirs[selectedDir]["maxmean"]["all"].append(arr[6])
+            selectedDirs[selectedDir]["maxmean"]["field"].append(arr[7])
+            selectedDirs[selectedDir]["maxmean"]["src"].append(arr[8])
+            selectedDirs[selectedDir]["min"]["all"].append(arr[9])
+            selectedDirs[selectedDir]["min"]["field"].append(arr[10])
+            selectedDirs[selectedDir]["min"]["src"].append(arr[11])
+            selectedDirs[selectedDir]["minmean"]["all"].append(arr[12])
+            selectedDirs[selectedDir]["minmean"]["field"].append(arr[13])
+            selectedDirs[selectedDir]["minmean"]["src"].append(arr[14])
 
-#             selectedDirs[selectedDir]["mean"]["ring1"].append(arr[15])
-#             selectedDirs[selectedDir]["mean"]["ring2"].append(arr[16])
-#             selectedDirs[selectedDir]["mean"]["ring3"].append(arr[17])
-#             selectedDirs[selectedDir]["max"]["ring1"].append(arr[18])
-#             selectedDirs[selectedDir]["max"]["ring2"].append(arr[19])
-#             selectedDirs[selectedDir]["max"]["ring3"].append(arr[20])
-#             selectedDirs[selectedDir]["maxmean"]["ring1"].append(arr[21])
-#             selectedDirs[selectedDir]["maxmean"]["ring2"].append(arr[22])
-#             selectedDirs[selectedDir]["maxmean"]["ring3"].append(arr[23])
-#             selectedDirs[selectedDir]["min"]["ring1"].append(arr[24])
-#             selectedDirs[selectedDir]["min"]["ring2"].append(arr[25])
-#             selectedDirs[selectedDir]["min"]["ring3"].append(arr[26])
-#             selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
-#             selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
-#             selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])
-#         myLog.logging.info(f'Finished tests over datasets')
+            selectedDirs[selectedDir]["mean"]["ring1"].append(arr[15])
+            selectedDirs[selectedDir]["mean"]["ring2"].append(arr[16])
+            selectedDirs[selectedDir]["mean"]["ring3"].append(arr[17])
+            selectedDirs[selectedDir]["max"]["ring1"].append(arr[18])
+            selectedDirs[selectedDir]["max"]["ring2"].append(arr[19])
+            selectedDirs[selectedDir]["max"]["ring3"].append(arr[20])
+            selectedDirs[selectedDir]["maxmean"]["ring1"].append(arr[21])
+            selectedDirs[selectedDir]["maxmean"]["ring2"].append(arr[22])
+            selectedDirs[selectedDir]["maxmean"]["ring3"].append(arr[23])
+            selectedDirs[selectedDir]["min"]["ring1"].append(arr[24])
+            selectedDirs[selectedDir]["min"]["ring2"].append(arr[25])
+            selectedDirs[selectedDir]["min"]["ring3"].append(arr[26])
+            selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
+            selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
+            selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])
 
-#     modelName = next(iter(selectedDirs.keys()))
-#     saveJSON(selectedDirs, os.path.join(PATH, "AfterPlots", "errors"), f'errorsPerDS-{modelName}_{args.loss}.json')
-#     myLog.logging.info(f'JSON object saved')
+            selectedDirs[selectedDir]["mean"]["ring4"].append(arr[30])
+            selectedDirs[selectedDir]["max"]["ring4"].append(arr[31])
+            selectedDirs[selectedDir]["maxmean"]["ring4"].append(arr[32])
+            selectedDirs[selectedDir]["min"]["ring4"].append(arr[33])
+            selectedDirs[selectedDir]["minmean"]["ring4"].append(arr[34])
+        myLog.logging.info(f'Finished tests over datasets')
+
+    modelName = next(iter(selectedDirs.keys()))
+    saveJSON(selectedDirs, os.path.join(PATH, "AfterPlots", "errors"), f'errorsPerDS-{modelName}_OWN.json')
+    myLog.logging.info(f'JSON object saved')
     
     
 #     ##MSE Train
@@ -341,6 +353,12 @@ if __name__ == '__main__':
 #             selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
 #             selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
 #             selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])
+
+#             selectedDirs[selectedDir]["mean"]["ring4"].append(arr[30])
+#             selectedDirs[selectedDir]["max"]["ring4"].append(arr[31])
+#             selectedDirs[selectedDir]["maxmean"]["ring4"].append(arr[32])
+#             selectedDirs[selectedDir]["min"]["ring4"].append(arr[33])
+#             selectedDirs[selectedDir]["minmean"]["ring4"].append(arr[34])
 #         myLog.logging.info(f'Finished tests over datasets')
 
 #     modelName = next(iter(selectedDirs.keys()))
@@ -398,7 +416,13 @@ if __name__ == '__main__':
             selectedDirs[selectedDir]["min"]["ring3"].append(arr[26])
             selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
             selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
-            selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])            
+            selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29]) 
+            
+            selectedDirs[selectedDir]["mean"]["ring4"].append(arr[30])
+            selectedDirs[selectedDir]["max"]["ring4"].append(arr[31])
+            selectedDirs[selectedDir]["maxmean"]["ring4"].append(arr[32])
+            selectedDirs[selectedDir]["min"]["ring4"].append(arr[33])
+            selectedDirs[selectedDir]["minmean"]["ring4"].append(arr[34])
         myLog.logging.info(f'Finished tests over datasets')
 
     modelName = next(iter(selectedDirs.keys()))
@@ -457,7 +481,13 @@ if __name__ == '__main__':
 #             selectedDirs[selectedDir]["min"]["ring3"].append(arr[26])
 #             selectedDirs[selectedDir]["minmean"]["ring1"].append(arr[27])
 #             selectedDirs[selectedDir]["minmean"]["ring2"].append(arr[28])
-#             selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])            
+#             selectedDirs[selectedDir]["minmean"]["ring3"].append(arr[29])  
+
+#             selectedDirs[selectedDir]["mean"]["ring4"].append(arr[30])
+#             selectedDirs[selectedDir]["max"]["ring4"].append(arr[31])
+#             selectedDirs[selectedDir]["maxmean"]["ring4"].append(arr[32])
+#             selectedDirs[selectedDir]["min"]["ring4"].append(arr[33])
+#             selectedDirs[selectedDir]["minmean"]["ring4"].append(arr[34])
 #         myLog.logging.info(f'Finished tests over datasets')
 
 #     modelName = next(iter(selectedDirs.keys()))

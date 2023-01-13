@@ -602,7 +602,7 @@ def numOfPixels(loader, device, transformation="linear",
     error1_ring2 = 0.0
     error1_ring3 = 0.0
     
-    
+    bs = loader.batch_size
     for i, data in enumerate(loader):
         x = data[0].to(device)
         y = data[1].to(device)
@@ -628,11 +628,11 @@ def numOfPixels(loader, device, transformation="linear",
         
 
         error1 += 512*512/(512*512) #torch.mean(e1).cpu().numpy()
-        error1_field += torch.nansum(e1_field).cpu().numpy()/(512*512)
-        error1_src += torch.nansum(e1_srcs).cpu().numpy()/(512*512)
-        error1_ring1 += torch.nansum(e1_ring1).cpu().numpy()/(512*512)
-        error1_ring2 += torch.nansum(e1_ring2).cpu().numpy()/(512*512)
-        error1_ring3 += torch.nansum(e1_ring3).cpu().numpy()/(512*512)
+        error1_field += torch.nansum(e1_field).cpu().numpy()/(512*512*bs)
+        error1_src += torch.nansum(e1_srcs).cpu().numpy()/(512*512*bs)
+        error1_ring1 += torch.nansum(e1_ring1).cpu().numpy()/(512*512*bs)
+        error1_ring2 += torch.nansum(e1_ring2).cpu().numpy()/(512*512*bs)
+        error1_ring3 += torch.nansum(e1_ring3).cpu().numpy()/(512*512*bs)
                 
 
         

@@ -59,33 +59,33 @@ def inverse_huber_loss(target,output, C=0.5):
 #     return torch.mean(torch.where(absdiff < C, absdiff,(absdiff*absdiff+C*C)/(2*C) ))
     return torch.where(absdiff < C, absdiff,(absdiff*absdiff+C*C)/(2*C) )
 
-class myLoss(object):
-    def __init__(self, dict, ep=1, lossSelection="step", wtan=1, w2=6000, alph=2, w=1, delta=0.5):
+class myLoss(nn.Module):
+    def __init__(self, dict):
+        super(myLoss, self).__init__()
         self.dict = dict
-        self.ep = ep
         
     def forward(self, output, target):
-        if lossSelection == "step":
-            loss = (1 + torch.tanh(wtan*target) * w2) * torch.abs((output - target)**alph)
-        elif lossSelection == "exp":
-            loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/w) * torch.abs((output - target)**alph)
-        elif lossSelection == "huber":
-            loss = (1 + torch.tanh(wtan*target) * w2) * torch.nn.HuberLoss(reduction='none', delta=delta)(output, target)
-#         elif lossSelection == "toggle":
-#             if np.mod(np.divmod(ep, self.dict["togIdx"])[0], 2) == 0:
-#                 loss = (1 + torch.tanh(self.dict["wtan"]*target) * self.dict["w2"]) * torch.abs((output - target)**self.dict["alph"])
-#             else:
-#                 loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * torch.abs((output - target)**self.dict["alph"])
-#         elif lossSelection == "rand":
-# #             r = np.random.rand()            
-#             if self.dict["r"][-1]<self.dict["p"]:
-#                 loss = (1 + torch.tanh(self.dict["wtan"]*target) * self.dict["w2"]) * torch.abs((output - target)**self.dict["alph"])
-#             else:
-#                 loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * torch.abs((output - target)**self.dict["alph"])
-        elif lossSelection == "invhuber":
-            loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/w) * inverse_huber_loss(target,output, C = delta)
-        elif lossSelection == "invhuber2":
-            loss = inverse_huber_loss(target,output, C = delta)
+        if self.dict["lossSelection"] == "step":
+            loss = (1 + torch.tanh(self.dict["wtan"]*target) *self.dict["w2"]) * torch.abs((output - target)**self.dict["alph"])
+        elif self.dict["lossSelection"] == "exp":
+            loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * torch.abs((output - target)**self.dict["alph"])
+        elif self.dict["lossSelection"] == "huber":
+            loss = (1 + torch.tanh(self.dict["wtan"]*target) * self.dict["w2"]) * torch.nn.HuberLoss(reduction='none', delta=self.dict["delta"])(output, target)
+        elif self.dict["lossSelection"] == "toggle":
+            if np.mod(np.divmod(ep, self.dict["togIdx"])[0], 2) == 0:
+                loss = (1 + torch.tanh(self.dict["wtan"]*target) * self.dict["w2"]) * torch.abs((output - target)**self.dict["alph"])
+            else:
+                loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * torch.abs((output - target)**self.dict["alph"])
+        elif self.dict["lossSelection"] == "rand":
+#             r = np.random.rand()            
+            if self.dict["r"][-1]<self.dict["p"]:
+                loss = (1 + torch.tanh(self.dict["wtan"]*target) * self.dict["w2"]) * torch.abs((output - target)**self.dict["alph"])
+            else:
+                loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * torch.abs((output - target)**self.dict["alph"])
+        elif self.dict["lossSelection"] == "invhuber":
+            loss = torch.exp(-torch.abs(torch.ones_like(output) - output)/self.dict["w"]) * inverse_huber_loss(target,output, C = self.dict["delta"])
+        elif self.dict["lossSelection"] == "invhuber2":
+            loss = inverse_huber_loss(target,output, C = self.dict["delta"])
         return loss
 
 # /raid/javier/Datasets/DiffSolver/
